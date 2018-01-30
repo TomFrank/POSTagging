@@ -1,0 +1,5 @@
+corp/*
+venv/*
+.idea/*
+test_data_input copy.txt
+model_data/Untitled.py
