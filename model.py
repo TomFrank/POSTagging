@@ -201,7 +201,7 @@ def combine_input_and_tag(input_data, tags_array, word2index_dict):
 def save_ans(ans):
     with open('./' + output_filename, 'w', encoding='utf-8') as f:
         for line in ans:
-            print(*line, file=f, sep='  ')
+            print(*line, file=f, sep=' ')
 
 
 def eval_accuracy(predict_tag):
